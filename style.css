@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+/* Style the <li> elements */
+li {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style anchor links inside <li> elements */
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(./images/pexels-binyamin-mellish-1396132.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar{
+    background-color: rgb(14, 13, 13);
+    opacity: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+}
+
+.logo{
+    display: flex;
+    background-color: black;
+    width: 16%; /* Adjust this width as needed */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content, optional */
+}
+
+.logo h2{
+    color: #fff;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100;
+    /* background-color: aqua; */
+}
+
+.nav hr{
+    margin: 10px 0px;
+    
+}
+
+.home-links{
+    width: 20%;
+}
+
+.home-links ul{
+    display: flex;
+    justify-content: space-between;
+    
+    /* background-color: pink; */
+}
+
+
+.login-links{
+    width: 15%;
+}
+
+.login-links hr{
+    height: 15px;
+    margin: 0;
+}
+
+.login-links ul{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: pink; */
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: yellow; */
+    padding: 0.5rem;
+    
+    width: 76%;
+}
+
+.btn{
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn button{
+    color: #fff;
+    border: none;
+    padding: 0.4rem;
+    background-color: #007BFF;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#Home{
+    color: aqua;
+}
+
+#link-hover:hover{
+    color: aqua;
+}
+
+.btn button:hover{
+    color: #007BFF;
+    background-color: #fff;
+}
+
+.home-content{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    color: #fff;
+}
+
+.input{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.input input{
+    width: 40rem;
+    height: 1.5rem;
+    background-color: black;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    color: #fff;
+    margin-bottom: 4px;
+    opacity: 80%;
+}
+
+.input-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-icon i{
+    cursor: pointer;
+}
+
+.latest-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    color: #fff;
+}
+
+.latest-post p{
+    font-size: 12px;
+}
+.latest-post i{
+    font-size: 26px;
+    margin-top: 2px;
+    cursor: pointer;
+}
