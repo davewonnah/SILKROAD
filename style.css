@@ -323,7 +323,7 @@ li a {
     }
 }
 
-@media only screen and (min-width: 420px) and (max-width: 492px) {
+@media only screen and (min-width: 440px) and (max-width: 492px) {
     /* Hide the main navigation */
     .nav {
         display: none;
@@ -353,5 +353,71 @@ li a {
     }
     .input input{
         width: 22rem;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 439px) {
+    /* Hide the main navigation */
+    .nav {
+        display: none;
+    }
+
+    /* Display the menu icon */
+    .menu {
+        display: block;
+    }
+
+    /* Style the menu icon */
+    .menu i {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    /* Additional responsive styles for smaller screens */
+    .nav-bar {
+        padding: 0.5rem;
+    }
+    .logo{
+        width: 35%;
+    }
+    .home-content h1{
+        font-size: large;
+        margin-top: 60px;
+    }
+    .input input{
+        width: 19rem;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    /* Hide the main navigation */
+    .nav {
+        display: none;
+    }
+
+    /* Display the menu icon */
+    .menu {
+        display: block;
+    }
+
+    /* Style the menu icon */
+    .menu i {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    /* Additional responsive styles for smaller screens */
+    .nav-bar {
+        padding: 0.5rem;
+    }
+    .logo{
+        width: 40%;
+    }
+    .home-content h1{
+        font-size: large;
+        margin-top: 60px;
+    }
+    .input input{
+        width: 18rem;
     }
 }
