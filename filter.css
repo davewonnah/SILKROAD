@@ -1,0 +1,149 @@
+.filter{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+    margin-top: 20px;    
+}
+
+.filter-contents{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color:  rgb(14, 13, 13);
+    opacity: 94%;
+    width: 50%;
+    height: 40%;
+}
+
+.filter-header{
+    /* background-color: blueviolet; */
+    display: flex;
+    margin-bottom: 4px;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#filter-input{
+    padding: 0.2rem;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+.filter-header i{
+    cursor: pointer;
+}
+
+.filter-links{
+    display: flex;
+    /* background-color: crimson; */
+    justify-content: space-between;
+    align-items: center
+}
+
+.filter-logo{
+    /* background-color: rgb(200, 255, 0); */
+    color: #fff;
+}
+
+.filter-option{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: crimson; */
+}
+
+.filter-option select{
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: rgb(90, 123, 152);
+}
+
+.choose-price{
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .range-field{
+    -webkit-appearance: none;
+    outline: none;
+    width: 200px;
+    height: 10px;
+    background: #fff;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0,1);
+    overflow: hidden;
+    cursor: pointer;
+} */
+
+
+.find-it-btn button{
+    color: #fff;
+    border: none;
+    width: 220px;
+    padding: 0.4rem 1rem;
+    background-color: #007BFF;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.find-it-btn button:hover{
+    color: #007BFF;
+    background-color: #fff;
+}
+
+.filter-latest-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    color: #fff;
+}
+
+.filter-latest-post i{
+    font-size: 26px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 899px) {
+    .filter-option{
+        /* background-color: crimson; */
+        flex-direction: column;
+        /* margin-bottom: 10px; */
+    }
+    .filter select{
+        width: 100%;
+    }
+    .choose-price{
+        flex-direction: column;
+    }
+    .find-it-btn button{
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    .filter-latest-post{
+        top: 90%;
+    }
+    .filter-contents{
+        width: 80%;
+    }
+}

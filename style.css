@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins";
+    text-decoration: none;
+    list-style: none;
 }
 
 ul {
@@ -111,7 +113,7 @@ li a {
 .btn button{
     color: #fff;
     border: none;
-    padding: 0.4rem;
+    padding: 0.4rem 1rem;
     background-color: #007BFF;
     transition: 0.5s;
     cursor: pointer;
@@ -169,6 +171,7 @@ li a {
 
 .input-icon i{
     cursor: pointer;
+    color: #fff;
 }
 
 .latest-post{
@@ -194,7 +197,6 @@ li a {
     margin-top: 2px;
     cursor: pointer;
 }
-
 
 /* Original CSS styles here */
 

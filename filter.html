@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="filter.css">
+    <title>Real Estates</title>
+</head>
+<body>
+
+    <div class="banner">
+        <header class="nav-bar">
+            <div class="logo">
+                <h2>SILKROAD</h2>
+            </div>
+            <div class="menu">
+                <i class="ri-menu-line"></i>
+            </div>
+            <div class="nav">
+                <nav class="nav-links">
+                    <div class="home-links">
+                        <ul>
+                            <li><a href="index.html" id="Home">Home</a></li>
+                            <li><a href="#" id="link-hover">Our Properties</a></li>
+                        </ul>
+                    </div>
+                    <div class="login-links">
+                        <ul>
+                            <li><a href="#" id="link-hover">Login</a></li>
+                            <hr>
+                            <li><a href="#" id="link-hover">Register</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <hr>
+                <div class="btn">
+                    <button>Post a property</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="filter">
+            <div class="filter-contents">
+                <div class="filter-header">
+                    <div class="filter-logo">
+                        <i class="ri-filter-2-fill"> FILTER</i>
+                    </div>
+
+                    <div class="filter-links">
+                        <ul>
+                            <li>
+                                <a href="#" id="Home">All</a>
+                                <a href="#" id="link-hover">Rent</a>
+                                <a href="#" id="link-hover">Sale</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <input type="text" id="filter-input"  placeholder="  KEYWORD">
+
+                <div class="filter-option">
+                    <select>
+                        <option id="select" selected disabled>Category</option>
+                        <option>All</option>
+                        <option>Rent</option>
+                        <option>Sale</option>
+                    </select>
+                    <select>
+                        <option selected disabled>Location</option>
+                        <option>Oldroad</option>
+                        <option>Congo town</option>
+                        <option>Red light</option>
+                        <option>Paynessville</option>
+                        <option>ELWA market</option>
+                        <option>Down water side</option>
+                    </select>
+                </div>
+
+                <div class="filter-option">
+                    <select>
+                        <option selected disabled>No. of Bedrooms</option>
+                        <option>1 Bedrooms</option>
+                        <option>2 Bedrooms</option>
+                        <option>3 Bedrooms</option>
+                        <option>4 Bedrooms</option>
+                        <option>5 Bedrooms</option>
+                        <option>6 Bedrooms</option>
+                        <option>7 Bedrooms</option>
+                        <option>8 Bedrooms</option>
+                        <option>9 Bedrooms</option>
+                        <option>10 Bedrooms</option>
+                    </select>
+                    <select>
+                        <option selected disabled>No. of Bathrooms</option>
+                        <option>1 Bathrooms</option>
+                        <option>2 Bathrooms</option>
+                        <option>3 Bathrooms</option>
+                        <option>4 Bathrooms</option>
+                        <option>5 Bathrooms</option>
+                    </select>                        
+                </div>
+
+                <div class="choose-price">
+                    <div class="total-price">
+                        <h5>Price:  $00.00-$10,000.00</h5>
+                        <input type="range" name="range" id="range" class="range-field">
+                    </div>
+                    <div class="find-it-btn">
+                        <button>Find it</button>
+                    </div>  
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="filter-latest-post">
+            <p>OUR LATEST POSTINGS</p>
+            <i class="ri-time-line"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
